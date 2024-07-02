@@ -6,7 +6,7 @@ Pokémon games are regarded as one of the most successful video game adaptations
 
 Our project uses the “All Pokemon Dataset” that contains all the information for 1032 instances of different pokemons, with a total of 44 features in the dataset such as: Name, HP, Mean, Generation, etc. Out of the 44 features, 5 of them are categorical features, namely: Name, Type 1, Type 2, Abilities, Experience type and the rest 39 features are quantitative. So we have a total of 1032x44 data points. Our Project is a classification problem since the solution we’re trying to predict is whether a pokémon is in its final evolution form or not. As our output feature ‘Final Evolution’ has two unique classes, 1 and 0, this means that our project is trying to predict whether a pokémon is a legendary pokémon, so 1, or not, so 0. So, this indicates that our proposed model is attempting to classify the problem. For our particular problem we only need to select a few features which are:
 
-+ Input Features: `HP (Base HitPoints)`, `Att (Base Attack)`, `Def (Base Defense), `Spa (Base Special Attack),
++ Input Features: `HP (Base HitPoints)`, `Att (Base Attack)`, `Def (Base Defense)`, `Spa (Base Special Attack)`,
   `Spd (Base Special Defense)`, `Spe (Base Speed)`, `BST (Sum of all base stats)` and `Standard Deviation (Standard Deviation of all Base Stats)`
 
 + Output Feature: `Final Evolution`
